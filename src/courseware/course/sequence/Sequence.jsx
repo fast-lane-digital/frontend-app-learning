@@ -196,6 +196,7 @@ const Sequence = ({
       <>
         <div className="sequence-container d-inline-flex flex-row">
           <div className={classNames('sequence w-100', { 'position-relative': shouldDisplayNotificationTriggerInSequence })}>
+            <p>this is a test</p>
             {sequenceNavigationComponent}
             {shouldDisplayNotificationTriggerInSequence && <SidebarTriggers />}
             <SequenceExamWrapper
