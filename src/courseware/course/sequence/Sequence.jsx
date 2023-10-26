@@ -208,7 +208,7 @@ const Sequence = ({
               {defaultContent}
             </SequenceExamWrapper>
           </div>
-          <Sidebar />
+          {/* <Sidebar /> */}
         </div>
         <CourseLicense license={course.license || undefined} />
       </>
