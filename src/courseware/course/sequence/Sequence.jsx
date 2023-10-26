@@ -44,7 +44,7 @@ const Sequence = ({
   const unit = useModel('units', unitId);
   const sequenceStatus = useSelector(state => state.courseware.sequenceStatus);
   const sequenceMightBeUnit = useSelector(state => state.courseware.sequenceMightBeUnit);
-  const shouldDisplayNotificationTriggerInSequence = useWindowSize().width < breakpoints.small.minWidth;
+  const shouldDisplayNotificationTriggerInSequence = false;
 
   const handleNext = () => {
     const nextIndex = sequence.unitIds.indexOf(unitId) + 1;
@@ -208,7 +208,7 @@ const Sequence = ({
               {defaultContent}
             </SequenceExamWrapper>
           </div>
-          {/* <Sidebar /> */}
+          <Sidebar />
         </div>
         <CourseLicense license={course.license || undefined} />
       </>
