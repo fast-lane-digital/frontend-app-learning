@@ -32,7 +32,7 @@ const WelcomeMessage = ({ courseId, intl }) => {
       data-testid="alert-container-welcome"
       variant="light"
       stacked
-      dismissible
+      
       show={display}
       onClose={() => {
         setDisplay(false);
