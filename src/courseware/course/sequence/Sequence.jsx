@@ -195,9 +195,8 @@ const Sequence = ({
     return (
       <>
         <div className="sequence-container d-inline-flex flex-row">
-          <div className={classNames('sequence w-100', { 'position-relative': shouldDisplayNotificationTriggerInSequence })}>
+          <div className={classNames('sequence w-100')}>
             {sequenceNavigationComponent}
-            {shouldDisplayNotificationTriggerInSequence && <SidebarTriggers />}
             <SequenceExamWrapper
               sequence={sequence}
               courseId={courseId}
@@ -208,7 +207,6 @@ const Sequence = ({
               {defaultContent}
             </SequenceExamWrapper>
           </div>
-          <Sidebar />
         </div>
         <CourseLicense license={course.license || undefined} />
       </>
