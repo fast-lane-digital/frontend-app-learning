@@ -90,9 +90,7 @@ const Course = ({
           isStaff={isStaff}
           unitId={unitId}
         />
-        {shouldDisplayTriggers && (
-          <SidebarTriggers />
-        )}
+        {shouldDisplayTriggers}
       </div>
 
       <AlertList topic="sequence" />
