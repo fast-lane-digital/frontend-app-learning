@@ -198,7 +198,7 @@
   "progress.weight": "Weight",
   "progress.weightedGrade": "Weighted grade",
   "progress.weightedGradeSummary": "Your current weighted grade summary",
-  "progress.header": "Your progress",
+  "progress.header": "Your progresso",
   "progress.header.targetUser": "Course progress for {username}",
   "progress.link.studio": "View grading in Studio",
   "progress.relatedLinks.datesCard.description": "A schedule view of your course due dates and upcoming assignments.",
