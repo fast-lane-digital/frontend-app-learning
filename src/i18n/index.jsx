@@ -3,7 +3,7 @@ import frMessages from './messages/fr.json';
 import es419Messages from './messages/es_419.json';
 import zhcnMessages from './messages/zh_CN.json';
 import ptMessages from './messages/pt.json';
-import itMessages from './messages/it.json';
+import itMessages from './messages/it_IT.json';
 import ukMessages from './messages/uk.json';
 import deMessages from './messages/de.json';
 import ruMessages from './messages/ru.json';
