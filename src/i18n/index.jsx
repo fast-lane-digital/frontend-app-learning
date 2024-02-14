@@ -17,7 +17,7 @@ const messages = {
   fr: frMessages,
   'zh-cn': zhcnMessages,
   pt: ptMessages,
-  it: itMessages,
+  'it-it': itMessages,
   de: deMessages,
   hi: hiMessages,
   'fr-ca': frCAMessages,
