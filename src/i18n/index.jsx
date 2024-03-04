@@ -1,11 +1,12 @@
 import arMessages from './messages/ar.json';
 import frMessages from './messages/fr.json';
 import es419Messages from './messages/es_419.json';
+import esMessages from './messages/es_ES.json';
 import zhcnMessages from './messages/zh_CN.json';
 import ptMessages from './messages/pt.json';
-import itMessages from './messages/it.json';
+import itMessages from './messages/it_IT.json';
 import ukMessages from './messages/uk.json';
-import deMessages from './messages/de.json';
+import deMessages from './messages/de_DE.json';
 import ruMessages from './messages/ru.json';
 import hiMessages from './messages/hi.json';
 import frCAMessages from './messages/fr_CA.json';
@@ -14,11 +15,12 @@ import frCAMessages from './messages/fr_CA.json';
 const messages = {
   ar: arMessages,
   'es-419': es419Messages,
+  'es-es': esMessages,
   fr: frMessages,
   'zh-cn': zhcnMessages,
   pt: ptMessages,
-  it: itMessages,
-  de: deMessages,
+  'it-it': itMessages,
+  'de-de': deMessages,
   hi: hiMessages,
   'fr-ca': frCAMessages,
   ru: ruMessages,
